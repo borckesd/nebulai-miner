@@ -32,12 +32,6 @@ Make sure Python 3 and `pip` are installed. Then run:
 
 2. Create and fill the `token.txt` file with your token (example with one token):
 
-   ```bash
-your_single_token_here
-```
-
-
-
 🔑 How to Get Your Token (Using Browser Developer Tools)  
 Visit https://nebulai.network/opencompute and log in.
 
