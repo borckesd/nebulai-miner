@@ -32,7 +32,7 @@ Make sure Python 3 and `pip` are installed. Then run:
 
 2. Create and fill the `token.txt` file with your token (example with one token):
 
-🔑 How to Get Your Token (Using Browser Developer Tools)  
+How to Get Your Token (Using Browser Developer Tools)  
 Visit https://nebulai.network/opencompute and log in.
 
 Open your browser's Developer Tools:  
@@ -44,7 +44,9 @@ Refresh the page (F5).
 
 Find and click on a network request with "task" in its name (e.g., `finish/task`).  
 Go to the Headers tab.  
-Scroll down in Request Headers until you find a line like:
+Scroll down in Request Headers until you find a line like
+
+Copy the token value (your_token_here) and paste it into a file named token.txt in your project folder
 
 3. Install dependencies:
 
