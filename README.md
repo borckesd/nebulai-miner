@@ -21,6 +21,8 @@ This program fetches computation tasks from the Nebulai server, performs large m
 
 ## Installation
 
+Make sure Python 3 and `pip` are installed. Then run:
+
 1. Clone this repository:
 
    ```bash
@@ -31,7 +33,26 @@ This program fetches computation tasks from the Nebulai server, performs large m
 2. Create and fill the `token.txt` file with your token (example with one token):
 
    ```
-   your_single_token_here
+🔑 How to Get Your Token (Using Browser Developer Tools)
+Visit https://nebulai.network/opencompute and log in.
+
+Open your browser's Developer Tools:
+
+Chrome/Edge: press Ctrl + Shift + I or F12
+
+Firefox: press Ctrl + Shift + I
+
+Go to the Network tab.
+
+Refresh the page (F5).
+
+Find and click on a network request with "task" in its name (e.g., finish/task).
+
+Go to the Headers tab.
+
+Scroll down in Request Headers until you find a line like:
+
+token: your_token_here
    ```
 
 3. Install dependencies:
