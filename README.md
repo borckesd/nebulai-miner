@@ -78,7 +78,7 @@ python3 nebulai_miner.py
    [Service]
    User=ubuntu
    WorkingDirectory=/home/ubuntu/nebulai-miner
-   ExecStart=/usr/bin/python3 -u nebulai_miner.py
+   ExecStart=/root/nebulai-miner/venv/bin/python -u nebulai_miner.py
    Restart=always
    RestartSec=5
    StandardOutput=journal
